@@ -31,6 +31,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(st.secrets.AppSettings.chat_bot_title)
+st.image("best.jpg")
 st.write(st.secrets.AppSettings.chat_bot_message)
 
 user_input = st.text_input("please write your message", key="user_input", on_change=communicate)
